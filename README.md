@@ -1,5 +1,5 @@
 # Projeto_Site
- Site para um curso de Dj
- Com Dj Puky
+ <b>Site para um curso de Dj</b>
+ <p>Com Dj Puky
  
-Site Teste
+Site Teste utilizando HTML5 e CSS3. 
