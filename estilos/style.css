@@ -1,15 +1,15 @@
 *{
-    font-family: monospace;
-    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
 }
 
 body{
-    background-color: rgb(212, 194, 171);
+    background-color: gray;
 
 }
 
 main{
-    background-color: white;
+    background-color: whitesmoke;
     width: 650px;
     margin: auto;
     padding: 10px;
@@ -17,22 +17,34 @@ main{
 }
 
 h1 {
-    font-family: fantasy;
-    font-size: 28px;
+    text-align: center;
+    background-color: rgb(179, 179, 247);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
     color: rgb(4, 44, 44);
 
 }
 
 h2 {
-    font-size: 20px;
+    background-color: rgb(179, 179, 247);
+    margin: 0.5%;
+    font-size: 25px;
     color: rgb(4, 44, 44);
     text-shadow: 3px 3px 15px black;
 }
 
 h3 {
+    background-color: rgb(179, 179, 247);
+    margin: 0.5%;
     font-size: 18px;
+    float:left;
     color: rgb(4, 44, 44);
     text-shadow: 3px 3px 15px black;
+}
+
+article {
+    background-color: rgb(199, 210, 241);
+    margin: 0.5%;
 }
 
 img, h4 {
@@ -41,6 +53,8 @@ img, h4 {
 }
 
 .sombra {
+    float: left;
+    margin: 0.5%;
     width: 300px;
 	height: 150px;
 	background: rgb(68, 68, 68);
@@ -50,4 +64,16 @@ img, h4 {
     position: relative;
 	top: -7px;
 	left: -7px;
+    margin: 0.5%;
+}
+
+div {
+    border: 15 solid gray;
+    margin: 0.5%;
+    padding: 0.5%;
+
+}
+
+#a {
+    background-color: rgb(238, 186, 167);
 }
